@@ -1,0 +1,55 @@
+%%%%%%
+%%
+%% The SSSTA XHB Certificate Template
+%% SSSTA 星火杯奖状模板
+%%
+%%%%%%
+
+%% Copyright SSSTA 2017
+%% MAINTIANER Qinka[John Lee] <qinka@live.com> <qinka@live.com>
+
+%% Coding with temporarily GPL-3 License
+
+\documentclass{ctexart}
+
+
+%% Define the size 
+%% The width and length of paper, margin of the page
+\usepackage[papersize={28.5cm,20cm},left=3cm,right=3cm,top=7cm,bottom=4.5cm]{geometry} 
+
+
+%%  watermark
+\usepackage{draftwatermark}
+\SetWatermarkText{SAMPLE}%
+
+%% size of font
+\def\sizeT{\Huge}
+\def\sizeS{\Large}
+
+%% 第二十八届 星火杯
+\def\XHBcount{28}
+
+%% 落款 （Signature）
+\def\signature{软件学院}
+%% Time
+\def\signdate{\today}
+
+
+%% name
+\def\mkcr#1#2{%
+{\sizeT\par%
+    恭喜#1在第\XHBcount 届星火杯软件学院院赛中获得#2等奖，以资鼓励}
+    \begin{flushright}
+        \sizeS
+        \vfill
+        \signature
+        \\
+        \signdate
+        \newpage
+    \end{flushright}
+    %\newpage
+}
+
+\begin{document}
+%% name list
+\end{document}
