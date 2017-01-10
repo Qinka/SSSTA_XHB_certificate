@@ -1,1 +1,1 @@
-{print "sed -i '55i\\\\\\\\mkcr\\{"$1"\\}\\{"$2"\\}' .ignore/tmp.tex"}
+{print "sed -i '56i\\\\\\\\mkcr\\{"$1"\\}\\{"$2"\\}' .ignore/tmp.tex"}
