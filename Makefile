@@ -20,7 +20,7 @@ output.pdf: .ignore/tmp.tex
 
 .ignore/tmp.tex: .ignore
 	@cp certificate_template.tex .ignore/tmp.tex
-	@cat ${NAME_LIST} | awk -E makeup.awk | sh #| awk '{print $0" .ignore/tmp.tex"}' 
+	@cat ${NAME_LIST} | awk -E makeup.awk | sh
 
 .ignore: 
 	@mkdir .ignore
